@@ -1,0 +1,14 @@
+server:
+  port: 8084
+
+spring:
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5433/test_fizkultura
+    username: postgres
+    password: qwerty
+  flyway:
+    url: jdbc:postgresql://127.0.0.1:5433/test_fizkultura
+    locations: classpath:db/migration
+    user: postgres
+    password: qwerty
+
